@@ -78,7 +78,6 @@ module "blog_alb" {
     Environment = "dev"
   }
 }
-
 module "blog_sg" {
   source  = "terraform-aws-modules/security-group/aws"
   version = "4.13.0"
